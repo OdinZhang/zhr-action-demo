@@ -19,6 +19,9 @@ jobs:
             # 如果出现登录异常，可以配置 ZJU_COOKIE secret，请参考 https://github.com/upupming/zhr-action#%E7%99%BB%E5%BD%95%E5%BC%82%E5%B8%B8 获取 ZJU_COOKIE 的值
             cookie_eai_sess: ZJU_COOKIE
             dingtalk_token: DINGTALK_TOKEN
+          - username: 22260237
+            password: 85657798hhzjA
+            cookie_eai_sess: 50492751ad3a3c4ff813d4fe4a46ad84b242a76798fea792cf6c1da02dee81e8
     steps:
       - name: 打卡
         uses: upupming/zhr-action@release
